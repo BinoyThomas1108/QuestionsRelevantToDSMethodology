@@ -58,7 +58,7 @@ function checkSubmitEnable() {
   document.getElementById("submitBtn").disabled = remaining !== 0;
 }
 
-function evaluate() {
+function Evaluate() {
   let score = 0;
   for (let i = 0; i < 10; i++) {
     const label = document.getElementById("q" + i);
