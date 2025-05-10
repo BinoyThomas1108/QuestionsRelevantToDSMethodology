@@ -1,5 +1,5 @@
 const questions = [
-  'Do customer demographics affect prices?',
+  'Do do do customer demographics affect prices?',
   "Does product rating influence customers?",
   "How do purchases change during festivals?",
   "How many employees work in marketing?",
