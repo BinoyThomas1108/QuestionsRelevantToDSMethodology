@@ -1,14 +1,14 @@
 const questions = [
-  '0. Does customer demographics affect prices?',
-  "1. Does product rating influence customer choice?",
-  "2. How does purchase change during festive season?",
-  "3. How many employees work in marketing?",
-  "4. How much does the company spend on stationery?",
-  "5. What are customers' payment methods?",
-  "6. What are profit margins for different product?",
-  "7. What is the company's organizational structure?",
-  "8. What is traffic data to the e-commerce site like?",
-  "9. Which products have highest sales volumes?"
+  'Does customer demographics affect prices?',
+  "Does product rating influence customer choice?",
+  "How does purchase change during festive season?",
+  "How many employees work in marketing?",
+  "How much does the company spend on stationery?",
+  "What are customers' payment methods?",
+  "What are profit margins for different product?",
+  "What is the company's organizational structure?",
+  "What is traffic data to the e-commerce site like?",
+  "Which products have highest sales volumes?"
 ];
 
 const correctAnswers = {
