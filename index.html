@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Drag and Drop Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Business Question Sorting</h1>
+  <div class="container">
+    <div class="frame" id="relevant" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>Relevant</h2>
+    </div>
+    <div class="frame" id="not-relevant" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>Not Relevant</h2>
+    </div>
+    <div class="frame" id="questions" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>Questions</h2>
+    </div>
+  </div>
+  <button id="submitBtn" disabled onclick="evaluate()">Submit</button>
+  <p id="score"></p>
+  <script src="script.js"></script>
+</body>
+</html>
